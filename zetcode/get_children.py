@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-
+# The children attirbute contains the children of a tag (here the
+# specified tag is <html>).
 from bs4 import BeautifulSoup
 
 with open('index.html', 'r') as f:

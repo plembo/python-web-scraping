@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-
+# Tag name attribute gives tag name and text attribute its text content.
+# Here, the attributes of the h2 tag are retrieved.
 from bs4 import BeautifulSoup
 
 with open('index.html', 'r') as f:
