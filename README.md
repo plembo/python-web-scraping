@@ -1,4 +1,5 @@
-# Learn to scape web pages with Python
+# Learn to scrape web pages with Python
+Basic tutorials on scraping web pages with Python 3 and BeautifulSoup 4.
 
 Resources:
 
