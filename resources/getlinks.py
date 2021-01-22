@@ -7,7 +7,7 @@ with open('resources.csv', 'w', encoding='utf-8', newline='') as outfile:
     writer = csv.writer(outfile, quoting=csv.QUOTE_ALL)
     writer.writerow(['Name', 'Link'])
 
-    with open('Resources.html', 'r', encoding='utf-8') as f:
+    with open('wikipedia.html', 'r', encoding='utf-8') as f:
 
         contents = f.read()
 
